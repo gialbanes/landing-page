@@ -1,0 +1,322 @@
+body{
+    margin: 0 auto;
+    padding: 15px;
+}
+.inicio{
+    background-image: url('../imgs/inicio.png');
+    width: 100%;
+    height: 15%;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 750px;
+}
+li{
+    display: inline-block;
+    margin: 0 15px;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+a{
+    color: rgb(3, 3, 3);
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    display: flex;
+    flex-direction: row;
+}
+.computador{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+}
+.roxo {
+    width: 400px;
+    height: 450px;
+    background-color: blueviolet;
+    position: absolute;
+    border-radius: 10%;
+    left: -40px;
+    top: -25px;
+    z-index: -1;
+    margin-left: 200px;
+}
+p{
+    text-align: justify;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 17px;
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#text-sobre{
+    top: 1720px;
+    position: absolute;
+    left: 230px;
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#text-faculdade{
+    top: 1720px;
+    position: absolute;
+    left: 720px;
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#text-profissionais{
+    top: 1720px;
+    position: absolute;
+    left: 1215px;
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#text-1{
+    top: 1750px;
+    position: absolute;
+    left: 80px;
+    right: 1090px;
+    text-align: justify;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#text-2{
+    top: 1750px;
+    position: absolute;
+    left: 575px;
+    text-align: justify; 
+    right: 570px; 
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#text-3{
+    top: 1750px;
+    position: absolute;
+    left: 1085px;
+    text-align: justify;
+    right: 80px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.definicao{
+    font-size:  26px;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 170px;
+    margin-top: 150px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.computação{
+    margin-right: 170px;
+}
+h2{
+    font-size: 29px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+h4{
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#sobre{
+    background-color: #F4FD9A;
+    height:50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#sub-sobre{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.amarelo{
+    background-color: #F4FD9A;
+    height:100px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#faculdades{
+    background-color:#FFCEEC;
+    height:50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#sub-faculdades{
+    color: #FF00A9;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.rosa{
+    background-color:#FFCEEC;
+    height:100px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#mercado{
+    background-color: #D2FFC0;
+    height:50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#sub-mercado{
+    color: #1BB004;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.verde{
+    background-color: #D2FFC0;
+    height: 100px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#profissionais{
+    background-color: #AAC3FA;
+    height:50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+#sub-profissioanais{
+    color: #0C23F0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.azul{
+    background-color: #AAC3FA;
+    height:100px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+h1{
+    font-size: 15px;
+    color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: 100;
+}
+.rodapé{
+    background-color: rgb(121, 121, 121);
+    width: 100%;
+    height: 250px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.coluna1{
+    left: -200px;
+    display: inline-block;
+    margin: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.coluna2{
+    display: inline-block;
+    margin: 0 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.coluna3{
+    display: inline-block;
+    margin: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h7{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.grade{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+   
+    color: #514c8e;
+}
+header a {
+    box-shadow: inset 0 0 0 0 #514c8e;
+    color: #514c8e;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 8px;
+}
+      
+header a:hover {
+    box-shadow: inset 200px 0 0 0 #514c8e;
+    color: white;
+}
+tr, td{
+    border-bottom: 1px solid #ddd;
+    
+}
+table{
+    text-align: center;
+}
+.section1{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 375px;
+    color: #FF00A9;
+}
+.section2{
+    font-size: 15px;
+    margin-left: 375px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF00A9;
+}
+.section3{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 375px;
+    color: #FF00A9;
+}
+.section4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 480px;
+    color: #FF00A9;
+}
+.vocesabia
+{
+    font-size: 26px;
+    text-align: justify;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    color: #FF00A9;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
